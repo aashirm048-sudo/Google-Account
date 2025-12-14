@@ -1,0 +1,108 @@
+body {
+    background-color: pink;
+    overflow-x: hidden;
+}
+    
+
+    .box {
+        height: 500px;
+        width: 1200px;
+        border-radius: 40px;
+        background-color: white;
+        margin: 0 auto;
+        position: relative;
+        top: 60px;
+    }
+
+
+img {
+    height: 50px;
+    margin: 30px;
+}
+h1 {
+    position: relative;
+    top: -30px;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+}
+button {
+    font-size: 20px;
+    align-items: right;
+    justify-content: right;
+    border-radius: 15px;
+    width: 90px;
+    background-color: blue;
+    color: white;
+    float: right;
+    position: relative;
+    top: 40px;
+    height: 40px;
+}
+button:hover {
+    background-color: darkblue;
+}
+
+input {
+    float: right;
+    position: relative;
+    top: -190px;
+    height: 40px;
+    width: 35em;
+    justify-content: space-between;
+    /* gap: 60em; */
+    border: 2px solid black;
+    color: black;
+}
+.input {
+     float: right;
+    position: relative;
+    top: 90px;
+    height: 40px;
+    width: 35em;
+    justify-content: space-between;
+    /* gap: 60em; */
+    left: 30em;
+    color: black;
+}
+
+@media (max-width: 1400px) {
+    .box{
+        width: 1200px;
+    }
+    img {
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+}
+    input{
+        width: 35em;
+    }
+    .input{
+        width: 35em;
+      
+         left:30em;
+    position: relative;
+    top: 50px;
+    height: 40px;
+    width: 30em;
+    justify-content: space-between;
+    
+    display: flex;
+    }
+}
+
+
+
+
+
+
+
+   
+    
+   
+    
